@@ -1,0 +1,13 @@
+Phonix is an easy to use introoduction to demo and games programming.
+
+This is licensed 
+
+It is based on the Vulkan graphics API and uses bass for audio.
+
+= Requirements =
+
+* Microsoft Visual Studio Community 2017
+* VulkanSDK, https://vulkan.lunarg.com/
+* GLFW, http://www.glfw.org/download.html
+* GLM, 
+
