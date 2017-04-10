@@ -87,7 +87,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>c:\utils;c:\utils\glm;C:\VulkanSDK\1.0.42.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>c:\utils;c:\utils\glm;C:\VulkanSDK\1.0.42.1\Include;C:\utils\stb;C:\utils\tinyobj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -117,7 +117,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>c:\utils;c:\utils\glm;C:\VulkanSDK\1.0.42.1\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>c:\utils;c:\utils\glm;C:\VulkanSDK\1.0.42.1\Include;C:\utils\stb;C:\utils\tinyobj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -128,6 +128,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="phoenix.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo.cpp" />
+    <ClCompile Include="texture_mapping.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shadercompile.bat" />
+    <None Include="shader_base.frag" />
+    <None Include="shader_base.vert" />
+    <None Include="shader_depth.frag" />
+    <None Include="shader_depth.vert" />
+    <None Include="shader_textures.frag" />
+    <None Include="shader_textures.vert" />
+    <None Include="shader_ubo.frag" />
+    <None Include="shader_ubo.vert" />
+    <None Include="shader_vertexbuffer.frag" />
+    <None Include="shader_vertexbuffer.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

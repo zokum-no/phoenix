@@ -11,9 +11,11 @@ Code has been remixed from repo: https://github.com/Overv/VulkanTutorial
 = Requirements =
 
 * Microsoft Visual Studio Community 2017
-* VulkanSDK, https://vulkan.lunarg.com/
-* GLFW, http://www.glfw.org/download.html
-* GLM, https://github.com/g-truc/glm/releases
-* BASS, https://www.un4seen.com/
- 
+* VulkanSDK     https://vulkan.lunarg.com/
+* GLFW          http://www.glfw.org/download.html
+* GLM           https://github.com/g-truc/glm/releases
+* tinyobjloader https://github.com/syoyo/tinyobjloader
+* BASS          https://www.un4seen.com/
+* STB           https://github.com/nothings/stb
 
+Edit compile.bat for shader compilation
